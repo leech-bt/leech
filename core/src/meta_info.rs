@@ -4,7 +4,6 @@ use sha1::{digest::FixedOutput, Digest, Sha1};
 use std::convert::TryInto;
 use url::Url;
 
-// pub use bento;
 
 /// Dictionary containg information about the torrent
 #[derive(Debug, Deserialize, Serialize)]

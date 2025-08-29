@@ -9,4 +9,4 @@ clap = { version = "4.1.4", default-features = false, features = ["help", "usage
 color-eyre = "0.6.2"
 leech_core = { path = "../core" }
 tokio = { version = "1.24.2", features = ["macros", "parking_lot"] }
-tracing-subscriber = { version = "0.3.16", features = ["env-filter", "parking_lot", "tracing-log"] }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter", "parking_lot", "tracing-log"] }

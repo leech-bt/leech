@@ -6,4 +6,4 @@ edition = "2021"
 [dependencies]
 array_utils = { path = "../array_utils" }
 phf = { version = "0.11.1", features = ["macros"] }
-rand = "0.8.5"
+rand = "0.9.3"
